@@ -15,7 +15,10 @@ htmlcov/
 
 # Environment & local secrets
 .env
-.env.local
+.env.*
+*.env
+!.env.example
+
 
 # Vite / Frontend build artifacts
 frontend/dist/
